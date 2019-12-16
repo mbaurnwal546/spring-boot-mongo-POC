@@ -1,11 +1,15 @@
-# Build Project Using Maven
-Maven is java based build tool to generate executable
-packages(jar, ear,war) for java based projects.
+# Spring Boot - Introduction
+Spring Boot is an open source Java-based framework used to create a micro Service. It is used to build stand-alone and production ready spring applications. Spring Boot provides a good platform for Java developers to develop a stand-alone and production-grade spring application that you can just run.
 
-# Create Docker Image
-Docker is a continerization tool.Using docker we can deploy our applications as
-containers using docker images. Containers contains application code and also the softwares,
-config files whatever is required for our application to run.
-Create docker image using Dockerfile
-docker build -t dockerhandson/spring-boot-mongo .
+# MongoDB
+MongoDB is an open-source document database and leading NoSQL database
 
+# This POC covers the below setup:
+1. Installation of jenkins,Docker,Maven on jenkins server
+2. Installation of kubernetes cluster (As part of this poc 1 master and 1 worker node)
+3. Setup jenkins server to deploy application into kubernetes cluster
+4. Build and deploy docker Application from jenkins in kubernetes cluster using pipeline script
+
+Purpose: To deploy application  into kubernetes cluster integrating with jenkins automation
+
+Technologies used: EC2 inatances,Git,jenkins,Maven,Docker,Dockerhub,Kubernetes cluster
