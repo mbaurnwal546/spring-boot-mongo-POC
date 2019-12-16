@@ -1,1 +1,1 @@
-# spring-boot-mongo-POC
+# spring-boot-mongo-poc
