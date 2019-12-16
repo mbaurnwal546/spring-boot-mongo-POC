@@ -16,6 +16,6 @@ MongoDB is an open-source document database and leading NoSQL database
 
 **Technologies used:** EC2 inatances,Git,jenkins,Maven,Docker,Dockerhub,Kubernetes cluster
 
-#Architecture:
+# Architecture of application deployment:
 
 ![Architecture](https://github.com/mbaurnwal546/spring-boot-mongo-POC/blob/master/Architecture.jpg)
