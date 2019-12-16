@@ -35,7 +35,7 @@ spec:
   selector:
     name: springboot
 
-#To communicate with DB create one replica for Mongo DB using mongo image do the mapping 
+#To communicate application with DB create one replica for Mongo DB using mongo image do the volume mapping 
 ---
 # Mongo host path rc
 apiVersion: v1
@@ -66,7 +66,7 @@ spec:
         hostPath:
          path: /tmp/dbbackup
 
-#Enable clusterIP for MongoDB, so that springBoot access the MongoDB 
+#Enable clusterIP Service for MongoDB communication with application, so that springBoot access the MongoDB 
 ---
 # Mongo Node Port RC
 apiVersion: v1
