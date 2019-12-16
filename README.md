@@ -14,5 +14,4 @@ Purpose: To deploy application  into kubernetes cluster integrating with jenkins
 
 Technologies used: EC2 inatances,Git,jenkins,Maven,Docker,Dockerhub,Kubernetes cluster
 
-https://happiestminds.sharepoint.com/sites/PesDevOps-Training-Demo-Doc/Shared%20Documents/General/Mukesh/Architecture.jpg - automatic!
-[GitHub](https://happiestminds.sharepoint.com/sites/PesDevOps-Training-Demo-Doc/Shared%20Documents/General/Mukesh/Architecture.jpg)
+![Image description](https://happiestminds.sharepoint.com/sites/PesDevOps-Training-Demo-Doc/Shared%20Documents/General/Mukesh/Architecture.jpg)
