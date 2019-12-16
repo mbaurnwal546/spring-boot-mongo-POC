@@ -1,3 +1,4 @@
+#Create one replica of application basically creating one pod using image that pushed to DockerHub mbaurnwal546/spring-boot-mongo
 apiVersion: v1
 kind: ReplicationController
 metadata:
@@ -17,6 +18,7 @@ spec:
         ports:
         - name: springboot
           containerPort: 8080      
+# To access application outside create service type NodePort 
 ---
 # Node Port Service
 apiVersion: v1
@@ -32,6 +34,8 @@ spec:
       targetPort: 8080
   selector:
     name: springboot
+
+#To communicate with DB create one replica for Mongo DB using mongo image do the mapping 
 ---
 # Mongo host path rc
 apiVersion: v1
@@ -61,6 +65,8 @@ spec:
       - name: mongo-persistent-storage
         hostPath:
          path: /tmp/dbbackup
+
+#Enable clusterIP for MongoDB, so that springBoot access the MongoDB 
 ---
 # Mongo Node Port RC
 apiVersion: v1
