@@ -13,3 +13,6 @@ MongoDB is an open-source document database and leading NoSQL database
 Purpose: To deploy application  into kubernetes cluster integrating with jenkins automation
 
 Technologies used: EC2 inatances,Git,jenkins,Maven,Docker,Dockerhub,Kubernetes cluster
+
+https://happiestminds.sharepoint.com/sites/PesDevOps-Training-Demo-Doc/Shared%20Documents/General/Mukesh/Architecture.jpg - automatic!
+[GitHub](https://happiestminds.sharepoint.com/sites/PesDevOps-Training-Demo-Doc/Shared%20Documents/General/Mukesh/Architecture.jpg)
