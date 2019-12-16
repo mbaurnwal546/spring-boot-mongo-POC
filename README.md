@@ -14,4 +14,6 @@ Purpose: To deploy application  into kubernetes cluster integrating with jenkins
 
 Technologies used: EC2 inatances,Git,jenkins,Maven,Docker,Dockerhub,Kubernetes cluster
 
+#Architecture:
+
 ![Architecture](https://github.com/mbaurnwal546/spring-boot-mongo-POC/blob/master/Architecture.jpg)
