@@ -8,3 +8,8 @@ server:
   port: 8080
 
 #spring.data.mongodb.uri: mongodb://idgst-mongo:27017/digest
+#Metrics related configurations
+management.endpoint.metrics.enabled=true
+management.endpoints.web.exposure.include=*
+management.endpoint.prometheus.enabled=true
+management.metrics.export.prometheus.enabled=true
