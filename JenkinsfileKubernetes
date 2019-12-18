@@ -13,14 +13,14 @@ node{
     
     
     stage('Build Docker Image'){
-        sh 'docker build -t mbaurnwal546/spring-boot-mongo .'
+        sh 'docker build -t mbaurnwal546/spring-boot-mongo:$BUILD_NUMBER .'
     }
     
     stage('Push Docker Image'){
         withCredentials([string(credentialsId: 'DOKCER_HUB_PASSWORD', variable: 'DOKCER_HUB_PASSWORD')]) {
           sh "docker login -u mbaurnwal546 -p ${DOKCER_HUB_PASSWORD}"
         }
-        sh 'docker push mbaurnwal546/spring-boot-mongo'
+        sh 'docker push mbaurnwal546/spring-boot-mongo:$BUILD_NUMBER'
      }
      
      stage("Deploy To Kuberates Cluster"){
