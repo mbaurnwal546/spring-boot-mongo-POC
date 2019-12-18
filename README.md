@@ -1,4 +1,4 @@
-# Application: Spring Boot + MongoDB
+# Jenkins Kubernetes Integration & deploying application(Spring Boot + MongoDB) and monitoring using Prometheus/Grafana
 
 **Spring Boot:**
 Spring Boot is an open source Java-based framework used to create a micro Service. It is used to build stand-alone and production ready spring applications. Spring Boot provides a good platform for Java developers to develop a stand-alone and production-grade spring application that you can just run.
@@ -21,4 +21,4 @@ MongoDB is an open-source document database and leading NoSQL database
 ![Architecture](https://github.com/mbaurnwal546/spring-boot-mongo-POC/blob/master/Architecture.jpg)
 
 # Implementation steps:
-Follow the attached documenet for steps in details.
+Follow the attached documenet for steps in details. (Jenkins Kubernetes Integration.doc)
