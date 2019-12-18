@@ -19,3 +19,6 @@ MongoDB is an open-source document database and leading NoSQL database
 # Architecture of application deployment:
 
 ![Architecture](https://github.com/mbaurnwal546/spring-boot-mongo-POC/blob/master/Architecture.jpg)
+
+# Implementation steps:
+Follow the attached documenet for steps in details.
