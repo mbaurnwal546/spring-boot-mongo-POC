@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 /**
  * Represents a User which is mapped to <code>users</code> collection in MongoDB
  *
- * @author Mithun
+ * @author 
  */
 @Document(collection = "users")
 public class User implements Serializable {
