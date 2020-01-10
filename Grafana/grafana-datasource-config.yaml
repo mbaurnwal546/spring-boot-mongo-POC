@@ -9,7 +9,7 @@ data:
         "apiVersion": 1,
         "datasources": [
             {
-               "access":"proxy",
+               "access":"direct",
                 "editable": true,
                 "name": "prometheus",
                 "orgId": 1,
