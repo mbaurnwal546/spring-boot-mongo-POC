@@ -9,13 +9,13 @@ data:
         "apiVersion": 1,
         "datasources": [
             {
-               "access":"direct",
+               "access":"proxy",
                 "editable": true,
                 "name": "prometheus",
                 "orgId": 1,
                 "type": "prometheus",
                 "url": "http://18.191.62.68:32599",
                 "version": 1
-            
+            }
         ]
     }
