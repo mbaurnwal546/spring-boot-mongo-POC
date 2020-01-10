@@ -22,3 +22,5 @@ MongoDB is an open-source document database and leading NoSQL database
 
 # Implementation steps:
 Follow the attached documenet for steps in details. (Jenkins Kubernetes Integration.doc)
+
+Youtube: https://youtu.be/mtWlnlXy6IU
