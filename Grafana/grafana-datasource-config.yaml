@@ -14,7 +14,7 @@ data:
                 "name": "prometheus",
                 "orgId": 1,
                 "type": "prometheus",
-                "url": "http://18.219.215.142:32703",
+                "url": "http://18.219.215.142:30911",
                 "version": 1
             }
         ]
